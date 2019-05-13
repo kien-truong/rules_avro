@@ -18,7 +18,7 @@ AVRO_VERSION = "1.8.2"
 maven_install(
     artifacts = [
         "org.apache.avro:avro-tools:jar:%s" % AVRO_VERSION,
-        "org.apache.avro:avro:%s" % AVRO_VERSION,
+        "org.apache.avro:avro:jar:%s" % AVRO_VERSION,
     ],
     repositories = [
         "https://repo1.maven.org/maven2",
